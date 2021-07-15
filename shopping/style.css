@@ -1,0 +1,166 @@
+body
+{
+  background-color: #bab2b5;
+  overflow-y: auto;
+}
+.navbar
+{
+    margin: 0;
+    overflow: hidden;
+}
+.navbar a
+{
+    float: right;
+    padding: 5px 10px;
+}
+textarea
+{
+  padding-top: 10px;
+  border-radius: 20px;
+  border: none;
+}
+.side_nav {
+    float: left;
+    height: 100%;
+    width: 0; /*closed nav at first */
+    position: fixed;
+    z-index: 1; /*priority*/
+    top: 0;
+    left: 0;
+    background-color: #Eee2dc;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  .side_nav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #123C69;
+    display: block;
+    transition: 0.3s;
+  }
+  .img
+  {
+    border-radius: 70px;
+  }
+  .side_nav a:hover {
+    color: #376ba3;
+  }
+  .side_nav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  .navcontainer
+{
+    display: flex;
+    justify-content: space-between;
+   
+}
+#ropa
+{
+  font-size: 2em;
+  color: #AC3B61;
+}
+.scrollcontainer
+{
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  width: 100%;
+  white-space: nowrap;
+}
+.scrollcontainer img
+{
+  border-radius: 80px;
+}
+.scrollcontainer
+{
+ position: relative;
+ margin: auto;
+}
+.name
+{
+  display: flex;
+  justify-content: space-evenly;
+}
+.scroll
+{
+  display: flexbox;
+  justify-content: space-evenly;
+  overflow-x: auto;
+}
+.salecontainer
+{
+  padding: 40px 0px 0px 0px;
+  align-items: center;
+  width: 100%
+}
+.sales
+{
+  width: 100%;
+  border-radius: 50%;
+  display: none;
+
+}
+.prev, .next
+{
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  color: white;
+  transition: 0.6s ease;
+
+}
+.next{
+  right: 0;
+}
+.prev:hover, .next:hover
+{
+  background-color: rgba(43, 43, 43, 0.295);
+}
+h2
+{
+  color: #AC3B61;
+  font-size: 2em;
+  animation: color-change 1s infinite;
+}
+@keyframes color-change
+{
+  0%{color: #AC3B61;}
+  50%{color: #123C69;}
+  100%{color:#AC3B61;}
+}
+.deals
+{
+  display: flex-box;
+  justify-content: space-evenly;
+}
+.deal1
+{
+  display: flex;
+  justify-content: space-evenly;
+  border-image: 10px;
+}
+.deal2
+{
+  display: flex;
+  justify-content: space-evenly;
+}
+.last
+{
+  float: left;
+  padding-top: 20px;
+}
+th, tr
+{
+  padding: 50px ;
+  color:#AC3B61;
+}
+td
+{
+  20px;
+  color: #AC3B61;
+}

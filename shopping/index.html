@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shopping</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="navcontainer">
+            <div class="side_nav" id="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="sideClose()">&times;</a>
+                <br> <a href=""><img src="me.jpg" width="150" height="150" class="img"></a><br><pre>     Ropa</pre><hr>
+                <a href="">Orders</a>
+                <a href="">Contact Us</a>
+                <a href="">Legal</a>
+                <a href="javascript:void(0)" onclick="sideOpen()"></a>
+            </div>
+            <span id="ropa" onclick="sideOpen()">&#9776; MiShop</span>
+            <div class="navbar">
+                <textarea rows="1" cols="35"></textarea>
+                <a href=""><img src="bag.png" width="30" height="30"></a>
+                <a href=""><img src="wishlist.png" width="30" height="30"></a>
+                <a href=""><img src="src.png" width="30" height="30"></a>  
+            </div>
+        </div>
+        <div class="scroll">
+            <div class="scrollcontainer">
+                <a href=""><img src="women.jpg" width="150" height="150"></a>
+                <a href=""><img src="men.jpg" width="150" height="150"></a>
+                <a href=""><img src="kids.jpg" width="150" height="150"></a> 
+                <a href=""><img src="footwear.jpg" width="150" height="150"></a>
+                <a href=""><img src="beauty.jpg" width="150" height="150"></a>
+                <a href=""><img src="home.jpg" width="150" height="150"></a> 
+                <a href=""><img src="jewellery.jpg" width="150" height="150"></a>
+                <a href=""><img src="gadget.jpg" width="150" height="150"></a>   
+            </div>
+            <!--<div class="name">
+                <span >Women</span>
+                <span >Men</span>
+                <span >Kids</span>
+                <span >Footwear</span>
+                <span >Beauty</span>
+                <span >Home</span>
+                <span >Jewellery</span>
+                <span >Gadget</span>
+            </div>-->
+        </div>
+        <hr>
+        <div class="salecontainer">
+                <a class="sales" href=""><img src="hnm.jpg" height="100%" width="100%"></a>
+                <a class="sales" href=""><img src="levis.jpg" height="100%" width="100%"></a>
+                <a class="sales" href=""><img src="nike.jpg" height="100%" width="100%"></a> 
+                <a class="sales" href=""><img src="lakme.jpg" height="100%" width="100%"></a>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <h2>Biggest deals of the day</h2>
+        <div class="deals">
+            <div class="deal1">
+                <a href=""><img src="women.jpg" height="100%" width="100%"></a>
+                <a href=""><img src="men.jpg" height="100%" width="100%"></a>
+                <a href=""><img src="kids.jpg" height="100%" width="100%"></a> 
+                <a href=""><img src="footwear.jpg" height="100%" width="100%"></a>
+            </div><br>
+            <div class="deal2">
+                <a href=""><img src="beauty.jpg" height="100%" width="100%"></a>
+                <a href=""><img src="home.jpg" height="100%" width="100%"></a> 
+                <a href=""><img src="jewellery.jpg" height="100%" width="100%"></a>
+                <a href=""><img src="gadget.jpg" height="100%" width="100%"></a> 
+            </div>
+        </div>
+        <div class="last">
+            <table>
+                <tr>
+                    <th>ONLINE SHOPPING</th>
+                    <th>USEFUL LINKS</th>
+                    <th>REGISTERED OFFICE ADDRESS</th>
+                </tr>
+                <tr>
+                    <td>Men</td>
+                    <td>Contact Us</td>
+                    <td>Building Alyssa, Bengonia and Clover situated in Embassy Tech Village,</td>
+                </tr>
+                <tr>
+                    <td>Women</td>
+                    <td>FAQ</td>
+                    <td>Outer Ring Road, Rucksaw Village,</td>
+                </tr>
+                <tr>
+                    <td>Kids</td>
+                    <td>T&C</td>
+                    <td>Varthur Hobi, Bengaluru-560103</td>
+                </tr>
+            </table>
+        </div>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
